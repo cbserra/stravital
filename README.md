@@ -1,3 +1,3 @@
-## A Simple Boilerplate for your React Application
+# A Simple Boilerplate for your React Application
 
-# This Boilerplate build by Vite and Styled with TailwindCSS
+## This Boilerplate build with Vite and Styled with TailwindCSS
