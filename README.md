@@ -11,12 +11,3 @@ after everything is installed you're all set, type `npm run dev` to run the proj
 ### Additional Information
 *ViteReactTailwind* is a Starter Project for your next React Application.
 This Starter Project build with Vite, React and TailwindCSS.
-
-### Q-A
- **Why Vite, and not C-R-A?**
- 
- *ans: it's fast*
- 
- **Why TailwindCSS for Styling?**
- 
- *ans: currently it's my favorite Library for styling, and because it's have additional feature like dark mode, peer utilities, and already have color palette which I think it really helpful*
