@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  body{
+    @apply bg-blue-50 dark:bg-gray-800 overflow-x-hidden;
+  }
+}
+
+.spin{
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  to{transform: rotate(360deg);}
+}
