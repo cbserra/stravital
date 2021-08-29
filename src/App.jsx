@@ -20,7 +20,7 @@ function App() {
             href='https://vitejs.dev'
             target='_blank'
             rel='noopener noreferrer'
-            className='flex items-cente p-4 rounded-md space-x-1 shadow-md dark:shadow-none bg-white text-gray-700 hover:bg-gray-100 dark:bg-gray-700 dark:text-white dark:hover:bg-gray-600'
+            className='flex items-cente p-2 lg:p-4 text-sm md:text-base rounded-md space-x-1 shadow-md dark:shadow-none bg-white text-gray-700 hover:bg-gray-100 dark:bg-gray-700 dark:text-white dark:hover:bg-gray-600'
           >
             <span>Learn Vite</span>
             <span>&rarr;</span>
