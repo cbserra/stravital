@@ -9,7 +9,7 @@ This boilerplate is for everyone who tired start everything from scratch.
 
 > - Fast, use Vite.JS instead C-R-A
 > - Absolute path configured
-> - JIT Enabled by default
+> - JIT enabled by default
 > - Dark mode enabled (for media)
 
 #### Installation
