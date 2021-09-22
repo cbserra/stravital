@@ -1,4 +1,4 @@
-// instead use tailwindcss directive `@layer components`, for minimize css file size, we can use this method instead, for every component have their own object which have Tailwind utilities to used by each component
+// instead use tailwindcss directive `@layer components`, for minimize css file size, we can use this method, for every component have their own object which have Tailwind utilities that will be used by each component
 
 export const buttonStyle = {
   button:
