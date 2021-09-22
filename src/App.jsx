@@ -3,7 +3,7 @@ import Heading from '@/components/Heading'
 import Logo from '@/components/Logo'
 import Button from '@/components/Button'
 
-function App() {
+export default function App() {
   return (
     <section className={classes.container}>
       <div className={classes.subContainer}>
@@ -18,5 +18,3 @@ function App() {
     </section>
   )
 }
-
-export default App
