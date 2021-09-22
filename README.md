@@ -1,13 +1,33 @@
-# A Simple Starter Project for your next React Application
+## Getting started with ViteReactTailwind
 
-## Get Started
+ViteReactTailwind is _some kind of_ boilerplate for your next react application, Vite.JS required
+Node.JS >= 12.xx.
+Why use ViteJS instead C-R-A? for me, it's fast.
+This boilerplate is for everyone who tired start everything from scratch.
 
-### Installation
-**To run this starter project on your local computer.**
-first open your terminal then navigate to the project directory.
-type `npm install` on the terminal, it basically install all the necessary dependencies.
-after everything is installed you're all set, type `npm run dev` to run the project on development server.
+#### Feature
 
-### Additional Information
-*ViteReactTailwind* is a Starter Project for your next React Application.
-This Starter Project build with Vite, React and TailwindCSS.
+> - Fast, use Vite.JS instead C-R-A
+> - Absolute path configured
+> - JIT Enabled by default
+> - Dark mode enabled (for media)
+
+#### Installation
+
+> Installing package
+
+```zsh
+npm install
+```
+
+> Development mode
+
+```zsh
+npm run dev
+```
+
+> Build for production
+
+```zsh
+npm run build
+```
