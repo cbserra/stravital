@@ -1,10 +1,5 @@
-/node_modules
-/.pnp
-
-/dist
-/dist-ssr
-/build
-
-.env
-
+node_modules
+.DS_Store
+dist
+dist-ssr
 *.local
