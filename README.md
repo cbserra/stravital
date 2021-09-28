@@ -34,4 +34,4 @@ npm run build
 
 #### TypeScript version
 
-TypeScript version is now available, I will update soon to adding some types for TypeScript version, to use TypeScript version, switch the branch!
+TypeScript version is now available, I will update soon to adding some types for TypeScript version, to see TypeScript version, switch the branch!
