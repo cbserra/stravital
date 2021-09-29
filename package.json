@@ -2,6 +2,14 @@
   "name": "starter-vite-react-tailwindcss",
   "version": "0.1.0",
   "private": false,
+  "keywords": [
+    "starter template",
+    "starter template vite react",
+    "react vite tailwindcss",
+    "react",
+    "vite",
+    "tailwindcss"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
