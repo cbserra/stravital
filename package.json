@@ -1,6 +1,7 @@
 {
   "name": "vite-react-tailwind-boilerplate",
-  "version": "0.0.0",
+  "version": "0.1.0",
+  "private": false,
   "scripts": {
     "dev": "vite",
     "build": "vite build",
