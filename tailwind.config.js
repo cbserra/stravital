@@ -3,11 +3,7 @@ module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './index.html'],
   darkMode: 'media', // or 'media' or 'class' or false to turn off dark mode
   theme: {
-    extend: {
-      colors: {
-        react: '#61DAFB',
-      },
-    },
+    extend: {},
   },
   variants: {
     extend: {},

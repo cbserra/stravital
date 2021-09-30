@@ -4,11 +4,13 @@
     "baseUrl": "./src",
     "paths": {
       // configure path for absolute import
+      "@/styles/*": ["./styles/*"],
       "@/components/*": ["./components/*"],
-      "@/utils/*": ["./utils/*"]
-      //   add your own subfolder such as:
-      //   "@/layouts/*": ["./layouts/*"],
-      //   "@/hooks/*": ["./hooks/*"]
+      "@/layouts/*": ["./layouts/*"],
+      "@/pages/*": ["./pages/*"]
+      // add your own subfolder such as:
+      // "@/utils/*": ["./utils/*"]
+      // "@/hooks/*": ["./hooks/*"]
     }
   }
 }
