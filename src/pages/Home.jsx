@@ -9,10 +9,10 @@ export default function Home() {
         <p className={paraStyle}>StRaViTal stands ro Starter React Vite Tailwind</p>
         <p className={paraStyle}>
           Sometimes you got too lazy to getting started again from scratch with React and Tailwind, fear not, I have created
-          a minimalist starter project for your next React Application.
+          a minimalist starter template for your next React Application.
         </p>
         <p className={paraStyle}>
-          This React app installed with Vite <code>CLI</code> instead of <code>create-react-app</code>.
+          The React app was installed with Vite <code>CLI</code> instead of <code>create-react-app</code>.
         </p>
       </div>
     </section>
