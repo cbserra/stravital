@@ -6,7 +6,7 @@ export default function Home() {
         StRaViTal
       </h1>
       <div className='max-w-prose'>
-        <p className={paraStyle}>StRaViTal stands ro Starter React Vite Tailwind</p>
+        <p className={paraStyle}>StRaViTal stands for Starter React Vite Tailwind</p>
         <p className={paraStyle}>
           Sometimes you got too lazy to getting started again from scratch with React and Tailwind, fear not, I have created
           a minimalist starter template for your next React Application.
