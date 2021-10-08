@@ -1,7 +1,8 @@
 {
   "name": "stravital",
-  "version": "0.1.2",
-  "private": false,
+  "version": "0.1.9",
+  "description": "A simple React starter template for your next react application.",
+  "bin": "  ./bin/cli.js",
   "keywords": [
     "starter template",
     "starter template vite react",

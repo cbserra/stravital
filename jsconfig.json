@@ -5,12 +5,12 @@
     "paths": {
       // configure path for absolute import
       "@/styles/*": ["./styles/*"],
-      "@/components/*": ["./components/*"],
-      "@/layouts/*": ["./layouts/*"],
       "@/pages/*": ["./pages/*"]
       // add your own subfolder such as:
+      // "@/components/*": ["./components/*"],
       // "@/utils/*": ["./utils/*"]
       // "@/hooks/*": ["./hooks/*"]
     }
-  }
+  },
+  "exclude": ["node_modules", "build", "dist"]
 }

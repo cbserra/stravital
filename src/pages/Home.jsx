@@ -1,19 +1,21 @@
+import { SiReact } from 'react-icons/si'
+
 export default function Home() {
-  let paraStyle = 'text-sm sm:text-base lg:text-lg xl:text-xl my-2 sm:my-4 text-gray-800 dark:text-gray-300'
   return (
-    <section className='-mt-14 sm:-mt-20 lg:-mt-28'>
-      <h1 className='relative text-center text-4xl lg:text-6xl xl:text-9xl font-semibold after:absolute after:bottom-0 after:left-0 after:block after:w-full after:h-0.5 after:bg-gradient-to-r after:from-blue-500 after:to-pink-500 after:animate-ping text-blue-500 dark:text-pink-500'>
-        StRaViTal
-      </h1>
-      <div className='max-w-prose'>
-        <p className={paraStyle}>StRaViTal stands for Starter React Vite Tailwind</p>
-        <p className={paraStyle}>
-          Sometimes you got too lazy to getting started again from scratch with React and Tailwind, fear not, I have created
-          a minimalist starter template for your next React Application.
+    <section className='grid place-items-center'>
+      <div className='space-y-2 lg:space-y-4 selection:bg-blue-300 dark:selection:bg-pink-500 dark:selection:text-white'>
+        <div className='grid place-items-center text-2xl lg:text-6xl text-blue-500 dark:text-blue-400'>
+          <SiReact />
+        </div>
+        <div className='bg-gradient-to-r from-pink-500 to-blue-500 bg-clip-text'>
+          <h1 className='text-center text-xl lg:text-4xl font-bold uppercase text-transparent'>stravital</h1>
+        </div>
+        <p className='text-center lg:text-lg text-gray-800 dark:text-gray-300'>
+          React, Vite w/ Tailwind CSS minimalist starter template.
         </p>
-        <p className={paraStyle}>
-          The React app was installed with Vite <code>CLI</code> instead of <code>create-react-app</code>.
-        </p>
+        <div className='w-full h-1 rounded-full overflow-hidden'>
+          <div className='w-1/2 h-full bg-gradient-to-r from-pink-500 to-blue-500 animate-slebew'></div>
+        </div>
       </div>
     </section>
   )
