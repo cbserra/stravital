@@ -1,46 +1,47 @@
-## Getting started with StRaViTal
+## Getting started with Stravital
 
-The main purpose of this was I was too lazy to start everything from scratch, such as setting up config for tailwind, absolute path, jsxinject, etc.
-so I create this to solve those problem, and you can use this too, you know, just clone this repo and start developing your next React application with Vite and Tailwind CSS.
+This is my personal Starter template with React, Vite and TailwindCSS.
+
+Stravital is a starter template that I always used to get started with Vite, React and Tailwind CSS in no-time.
 
 #### Feature
 
-> - Fast, use Vite.JS instead C-R-A
-> - Dark mode enabled (for media)
-> - Absolute path configured
-> - JIT enabled by default
-> - Jsx inject configured
-> - Prop-Types added
-> - Eslint, Prettier and VSCode configured (.vscode for tailwind intellisense)
-> - React-Icons for ease of use icons in React app
+- Fast, use Vite.JS instead C-R-A
+- Dark mode enabled (for media)
+- Absolute import
+- JIT enabled
+- Jsx inject
+- Prop-Types
+- Eslint, Prettier and VSCode configured (.vscode for tailwind intellisense)
+- React-Icons for ease of use icons in React app
 
 #### Installation
 
-> Clone this repo
+Clone this repo
 
 ```bash
 git clone https://github.com/rizkimcitra/stravital
 ```
 
-> Go to directory
+Go to directory
 
 ```bash
 cd stravital
 ```
 
-> Installing package
+Installing package
 
 ```bash
 npm install
 ```
 
-> Development mode
+Development mode
 
 ```bash
 npm run dev
 ```
 
-> Build for production
+Build for production
 
 ```bash
 npm run build
