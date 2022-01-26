@@ -2,24 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
+@layer base {
+  h1 {
+    @apply font-primary text-2xl font-bold md:text-4xl text-neutral-800 dark:text-neutral-200;
+  }
+
+  h2 {
+    @apply font-primary text-xl font-bold md:text-3xl text-neutral-800 dark:text-neutral-200;
+  }
+
+  h3 {
+    @apply font-primary text-lg font-bold md:text-2xl text-neutral-800 dark:text-neutral-200;
+  }
+
+  h4 {
+    @apply font-primary text-base font-bold md:text-lg text-neutral-800 dark:text-neutral-200;
+  }
+
   body {
-    @apply overflow-x-hidden antialiased bg-white dark:bg-gray-900;
+    @apply font-primary text-sm md:text-base antialiased dark:bg-neutral-900;
   }
 }
 
-.animate-slebew{
-animation: slebew 2s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite   ;
-}
-
-@keyframes slebew {
-  0%, 100%{
-    transform: translateX(-100%);
+@layer utilities {
+  .layout {
+    @apply w-10/12 sm:w-11/12 max-w-5xl mx-auto;
   }
-  100%{
-    opacity: 0;
-  }
-  50%{
-    transform: translateX(200%);
+  .key-visible {
+    @apply focus-visible:outline-none focus-visible:ring focus-visible:ring-primary-500 focus-visible:ring-offset-2 focus-visible:ring-offset-sky-200 dark:focus-visible:ring-offset-sky-100;
   }
 }
