@@ -11,12 +11,6 @@ yarn type-check ||
     false;
 )
 
-yarn format ||
-(
-    echo 'oops, cannot format your code. Check your script prop in package.json file and try again.';
-    false;
-)
-
-echo '🎉 No error found and succesfully format your code!: committing this now.... ✨🚀🏄‍♂️🍻'
+echo '🎉 No error found: committing this now.... ✨🚀🏄‍♂️🍻'
 
 npx lint-staged
