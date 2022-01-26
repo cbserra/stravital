@@ -4,13 +4,19 @@
 echo '🏗️👷 Styling your project before committing...'
 
 # Check ESLint Standards
-npx eslint ||
+yarn type-check ||
 (
     echo '🔨❌ Yoo, you have a problem in your code. Check linter 🔨❌
-          Run yarn lint, add changes and try commit again.';
+          Run yarn type-check, add changes and try commit again.';
     false;
 )
 
-echo '🎉 No error found: committing this now.... ✨🚀🏄‍♂️🍻'
+yarn format ||
+(
+    echo 'oops, cannot format your code. Check your script prop in package.json file and try again.';
+    false;
+)
+
+echo '🎉 No error found and succesfully format your code!: committing this now.... ✨🚀🏄‍♂️🍻'
 
 npx lint-staged
