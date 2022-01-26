@@ -1,48 +1,42 @@
-## Getting started with Stravital
+# <p align="center">⚙️ Stravital</p>
 
-This is my personal Starter template with React, Vite and TailwindCSS.
+<p align="center">Kickstart your Web Application with React, Vite and Tailwind CSS.
+Stravital is my personal starter template to speed up my next react project.
+</p>
 
-Stravital is a starter template that I always used to get started with Vite, React and Tailwind CSS in no-time.
+## Features
 
-#### Feature
+Stravital is a minimalist starter template, it includes:
 
-- Fast, use Vite.JS instead C-R-A
-- Dark mode enabled (for media)
-- Absolute import
-- JIT enabled
-- Jsx inject
-- Prop-Types
-- Eslint, Prettier and VSCode configured (.vscode for tailwind intellisense)
-- React-Icons for ease of use icons in React app
+- ⚡️ Vite
+- ⚛️ React 17
+- 🏄 React Router DOM
+- 💎 TypeScript (of course)
+- 💨 Tailwind CSS
+- 🔨 Eslint
+- 🌀 Prettier
+- ☄️ Conventional Commit
+- 📡 Huksy & Lint Staged
+- 🎯 Absolute import by using `@/`
 
-#### Installation
+## Getting Started
 
-Clone this repo
+1. Clone this repository
+   to use this template, simply clone this repo or by using `use this template button` above.
 
-```bash
-git clone https://github.com/rizkimcitra/stravital
-```
+   Disclosure: by using this repository as a template, there will be an attribution on your repository.
 
-Go to directory
+   ```bash
+   git clone https://github.com/rizkimcitra/stravital
+   ```
 
-```bash
-cd stravital
-```
-
-Installing package
-
-```bash
-npm install
-```
-
-Development mode
-
-```bash
-npm run dev
-```
-
-Build for production
-
-```bash
-npm run build
-```
+2. Install the dependencies
+   I recommend you to use yarn instead of npm
+   ```bash
+   yarn install
+   ```
+3. Start the development server
+   ```bash
+   yarn dev
+   ```
+   look at [http://localhost:3000](http://localhost:3000) to see the development server running.
