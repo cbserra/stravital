@@ -4,9 +4,12 @@
   "description": "A simple React starter template for your next react application.",
   "license": "MIT",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "serve": "vite preview"
+    "dev": "tsc && vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview",
+    "postinstall": "husky install",
+    "type-check": "tsc --project tsconfig.json --pretty --noEmit",
+    "format": "prettier --config ./.prettierrc.json -w ./src/**/*.{tsx,ts}"
   },
   "dependencies": {
     "clsx": "^1.1.1",
@@ -26,11 +29,13 @@
     "cz-conventional-changelog": "3.3.0",
     "eslint": "8.6.0",
     "eslint-plugin-react": "7.28.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.1",
     "postcss": "^8.3.6",
     "prettier": "^2.5.1",
     "tailwindcss": "^3.0.13",
     "typescript": "^4.5.4",
-    "vite": "2.7.2"
+    "vite": "^2.7.10"
   },
   "keywords": [
     "starter template",
@@ -44,5 +49,14 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "**/*.{css,scss,md,html,json}": [
+      "prettier --write"
+    ]
   }
 }
