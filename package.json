@@ -3,13 +3,17 @@
   "version": "0.1.0",
   "description": "A simple React starter template for your next react application.",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rizkimcitra/stravital.git"
+  },
   "scripts": {
     "dev": "tsc && vite",
     "build": "tsc && vite build",
     "serve": "vite preview",
     "postinstall": "husky install",
     "type-check": "tsc --project tsconfig.json --pretty --noEmit",
-    "format": "prettier --config ./.prettierrc.json -w ./src/**/*.{tsx,ts}"
+    "format": "prettier --config ./.prettierrc.js -w ./src/**/*.{tsx,ts}"
   },
   "dependencies": {
     "clsx": "^1.1.1",
@@ -27,7 +31,7 @@
     "@vitejs/plugin-react": "^1.1.4",
     "autoprefixer": "^10.3.3",
     "cz-conventional-changelog": "3.3.0",
-    "eslint": "8.6.0",
+    "eslint": "^8.7.0",
     "eslint-plugin-react": "7.28.0",
     "husky": "^7.0.4",
     "lint-staged": "^12.3.1",
