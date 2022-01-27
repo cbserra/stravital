@@ -12,12 +12,7 @@ const useTheme = () => {
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
-      const html = document.documentElement
-      if (theme === 'light') {
-        html.className = 'light'
-      } else {
-        html.className = 'dark'
-      }
+      document.documentElement.className = theme
     }
   }, [theme])
 
