@@ -21,7 +21,7 @@ const Toggler = () => {
         className={clsx(
           'peer-checked:left-[1.6rem] md:peer-checked:left-[2.15rem] transition-all duration-200',
           'pointer-events-none w-5 h-5 block absolute top-0.5 left-0.5',
-          'rounded-full bg-neutral-500 peer-checked:bg-gradient-to-r peer-checked:from-rose-500 peer-checked:to-violet-500'
+          'rounded-full bg-neutral-500 peer-checked:bg-gradient-to-r peer-checked:from-violet-500 peer-checked:to-rose-500'
         )}
       />
     </div>
