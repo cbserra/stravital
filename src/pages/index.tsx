@@ -12,7 +12,7 @@ const IndexPage = (): JSX.Element => {
         <div className='w-full mt-4 mb-8 md:mt-0'>
           <h1 className='text-4xl md:text-6xl font-black'>
             Kickstart your React App with{' '}
-            <span className='text-transparent bg-clip-text bg-gradient-to-r from-violet-500 to-rose-500'>
+            <span className='dark:bg-gradient-to-r dark:text-transparent dark:bg-clip-text dark:from-rose-500 dark:to-violet-500'>
               Stravital
             </span>
           </h1>

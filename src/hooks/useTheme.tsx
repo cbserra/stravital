@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react'
  * @returns
  */
 const useTheme = () => {
-  const [theme, setTheme] = useState<'dark' | 'light'>('dark')
+  const [theme, setTheme] = useState<'dark' | 'light'>('light')
 
   const toggleTheme = () => setTheme(theme === 'dark' ? 'light' : 'dark')
 

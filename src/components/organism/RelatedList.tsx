@@ -1,4 +1,5 @@
 import List from '../atoms/List'
+import MyLink from '../atoms/MyLink'
 
 import clsx from 'clsx'
 
@@ -30,10 +31,9 @@ const RelatedList = (): JSX.Element => {
     <ul className={clsx('mt-2 md:mt-4 w-full', 'space-y-2 md:space-y-3')}>
       {list.map((item, idx) => (
         <List key={item.title + idx}>
-          <a
+          <MyLink
             href={item.href}
-            target='_blank'
-            rel='noopener noreferrer'
+            as='newtab'
             className={clsx(
               'key-visible flex items-center justify-between',
               'py-3 px-4 md:py-4 md:px-6',
@@ -46,7 +46,7 @@ const RelatedList = (): JSX.Element => {
             <span>{item.title}</span>
 
             <span className='ml-2 md:ml-4'>&rarr;</span>
-          </a>
+          </MyLink>
         </List>
       ))}
     </ul>
