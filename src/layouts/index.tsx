@@ -1,8 +1,4 @@
-import { Outlet } from 'react-router'
-
-/* export type LayoutMainProps = {
-  children?: React.ReactNode
-} */
+import { Outlet } from 'react-router-dom'
 
 const LayoutMain = (): JSX.Element => {
   return (

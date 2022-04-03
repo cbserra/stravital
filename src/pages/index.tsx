@@ -4,7 +4,6 @@ import RelatedList from '@/components/organism/RelatedList'
 import illustration from '@/assets/img/illustration.svg'
 
 import clsx from 'clsx'
-import { Link } from 'react-router-dom'
 
 const IndexPage = (): JSX.Element => {
   return (
@@ -25,9 +24,6 @@ const IndexPage = (): JSX.Element => {
 
       <section className={clsx('flex flex-col md:flex-row space-y-4 md:space-y-0 justify-between', 'w-full')}>
         <div className='w-full md:w-auto'>
-          <Link className='text-lg text-blue-600' to='second'>
-            Second Page
-          </Link>
           <h2>Related Link</h2>
           <RelatedList />
         </div>
