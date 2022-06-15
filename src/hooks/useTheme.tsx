@@ -9,7 +9,6 @@ import { useEffect } from 'react'
  * @returns
  */
 const useTheme = () => {
-  //const [theme, setTheme] = useState<'dark' | 'light'>('light')
   const [theme, setTheme] = useAtom(atoms.themeAtom)
 
   //const toggleTheme = () => setTheme(theme === 'dark' ? 'light' : 'dark')

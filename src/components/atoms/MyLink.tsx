@@ -1,3 +1,4 @@
+import React, { createElement } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 
 export type MyLinkProps = {
@@ -28,11 +29,7 @@ const MyLink = ({ children, href, as: asof = 'link', ...props }: MyLinkProps): J
     )
   }
 
-  return (
-    <a href={href} className={props.className as string} rel='noopener noreferrer' target='_blank'>
-      {children}
-    </a>
-  )
+  return createElement('a', { href, rel: 'noopener noreferrer', target: '_blank', ...props }, children)
 }
 
 export default MyLink

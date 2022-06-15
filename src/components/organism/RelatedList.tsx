@@ -1,7 +1,7 @@
-import List from '../atoms/List'
-import MyLink from '../atoms/MyLink'
+import List from '@/components/atoms/List'
+import MyLink from '@/components/atoms/MyLink'
 
-import clsx from 'clsx'
+import { twclsx } from '@/utils'
 
 const list = [
   {
@@ -28,13 +28,13 @@ const list = [
 
 const RelatedList = (): JSX.Element => {
   return (
-    <ul className={clsx('mt-2 md:mt-4 w-full', 'space-y-2 md:space-y-3')}>
+    <ul className={twclsx('mt-2 md:mt-4 w-full', 'space-y-2 md:space-y-3')}>
       {list.map((item, idx) => (
         <List key={item.title + idx}>
           <MyLink
             href={item.href}
             as='newtab'
-            className={clsx(
+            className={twclsx(
               'key-visible flex items-center justify-between',
               'py-3 px-4 md:py-4 md:px-6',
               'w-full h-full transition-all duration-75 rounded border',
