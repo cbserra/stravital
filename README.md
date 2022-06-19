@@ -9,7 +9,7 @@ Stravital is my personal starter template to speed up my next react project.
 Stravital is a minimalist starter template, it includes:
 
 - ⚡️ Vite
-- ⚛️ React 17
+- ⚛️ React 18
 - 🏄 React Router DOM
 - 💎 TypeScript (of course)
 - 💨 Tailwind CSS
