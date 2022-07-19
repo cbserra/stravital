@@ -8,7 +8,7 @@
     "url": "git+https://github.com/rizkimcitra/stravital.git"
   },
   "scripts": {
-    "dev": "vite --host",
+    "dev": "vite",
     "build": "tsc && vite build",
     "serve": "vite preview",
     "lint": "yarn eslint --config ./.eslintrc.cjs ./src/**/*.{tsx,ts}",
@@ -22,6 +22,7 @@
     "jotai": "^1.5.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0",
     "react-router-dom": "^6.3.0",
     "tailwind-merge": "^1.3.0"
   },
