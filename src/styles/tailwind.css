@@ -4,23 +4,28 @@
 
 @layer base {
   h1 {
-    @apply font-primary text-2xl font-bold md:text-4xl text-neutral-800 dark:text-neutral-200;
+    @apply font-primary text-2xl font-bold md:text-4xl text-main-7 dark:text-main-2;
   }
 
   h2 {
-    @apply font-primary text-xl font-bold md:text-3xl text-neutral-800 dark:text-neutral-200;
+    @apply font-primary text-xl font-bold md:text-3xl text-main-7 dark:text-main-2;
   }
 
   h3 {
-    @apply font-primary text-lg font-bold md:text-2xl text-neutral-800 dark:text-neutral-200;
+    @apply font-primary text-lg font-bold md:text-2xl text-main-7 dark:text-main-2;
   }
 
   h4 {
-    @apply font-primary text-base font-bold md:text-lg text-neutral-800 dark:text-neutral-200;
+    @apply font-primary text-base font-bold md:text-lg text-main-7 dark:text-main-2;
   }
 
   body {
-    @apply font-primary text-sm md:text-base antialiased dark:bg-neutral-900;
+    @apply font-primary text-sm md:text-base antialiased bg-main-1 dark:bg-main-8 text-main-6 dark:text-main-3;
+    @apply min-h-screen flex items-center justify-center;
+  }
+
+  html.dark {
+    color-scheme: dark;
   }
 }
 
@@ -28,7 +33,7 @@
   .layout {
     @apply w-10/12 sm:w-11/12 max-w-3xl mx-auto;
   }
-  .key-visible {
-    @apply focus-visible:outline-none focus-visible:ring focus-visible:ring-primary-500 focus-visible:ring-offset-2 focus-visible:ring-offset-sky-200 dark:focus-visible:ring-offset-sky-100;
+  img.react {
+    filter: drop-shadow(0 0 2em #61dafbaa);
   }
 }

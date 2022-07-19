@@ -1,4 +1,4 @@
-import * as atoms from '@/stores/store'
+import * as atoms from '@/app/store'
 
 import { useAtom } from 'jotai'
 import { useEffect } from 'react'
@@ -10,14 +10,10 @@ import { useEffect } from 'react'
  */
 const useTheme = () => {
   const [theme, setTheme] = useAtom(atoms.themeAtom)
-
-  //const toggleTheme = () => setTheme(theme === 'dark' ? 'light' : 'dark')
-  const toggleTheme = () => setTheme(theme === 'light' ? 'dark' : 'light')
+  const toggleTheme = () => setTheme((theme) => (theme === 'light' ? 'dark' : 'light'))
 
   useEffect(() => {
-    if (typeof window !== 'undefined') {
-      document.documentElement.className = theme
-    }
+    document.documentElement.className = theme
   }, [theme])
 
   return {
