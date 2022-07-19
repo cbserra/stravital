@@ -11,10 +11,10 @@
     "dev": "tsc && vite",
     "build": "tsc && vite build",
     "serve": "vite preview",
-    "lint": "yarn eslint --config ./.eslintrc.js ./src/**/*.{tsx,ts}",
+    "lint": "yarn eslint --config ./.eslintrc.cjs ./src/**/*.{tsx,ts}",
     "postinstall": "husky install",
     "type-check": "tsc --project tsconfig.json --pretty --noEmit",
-    "format": "prettier --config ./.prettierrc.js -w ./src/**/*.{tsx,ts}"
+    "format": "prettier --config ./.prettierrc.cjs -w ./src/**/*.{tsx,ts}"
   },
   "dependencies": {
     "clsx": "^1.1.1",
