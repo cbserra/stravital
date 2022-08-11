@@ -8,7 +8,7 @@
     "url": "git+https://github.com/rizkimcitra/stravital.git"
   },
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "tsc && vite build",
     "serve": "vite preview",
     "lint": "yarn eslint --config ./.eslintrc.cjs ./src/**/*.{tsx,ts}",
